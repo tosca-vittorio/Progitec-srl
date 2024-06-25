@@ -1,0 +1,52 @@
+/* Media query per dispositivi mobili (smartphone) - Larghezza massima di 600px */
+@media (max-width: 600px) {
+/* CSS specifico per dispositivi mobili */
+/*--- GENERALE ---*/
+body
+{
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    overflow-x: hidden;
+}
+
+/*--- SEZIONE 1 ---*/
+.master-text-container
+{   
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.title-text
+{
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+
+/* Media query per dispositivi tablet - Larghezza tra 601px e 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    /* CSS specifico per tablet */
+}
+
+/* Media query per laptop - Larghezza tra 901px e 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    /* CSS specifico per laptop */
+}
+
+/* Media query per desktop - Larghezza maggiore di 1200px */
+@media (min-width: 1201px) {
+    /* CSS specifico per desktop */
+}
